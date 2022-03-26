@@ -1,0 +1,20 @@
+<!--
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.comecu.todo.core.repository.TodoItemRepository">
+    <insert id="save" parameterType="com.comecu.todo.core.domain.TodoItem" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+        insert into todo_items (id, content, done)
+        values (#{index},#{content},#{done})
+    </insert>
+
+    &lt;!&ndash;<select id="findById" parameterType="long" resultType="com.comecu.todo.core.domain.TodoItem">
+        select id as index, content, done from todo_items where id = #{index}
+    </select>&ndash;&gt;
+
+    <select id="findAll" resultType="com.comecu.todo.core.domain.TodoItem">
+        select id as index, content, done from todo_items
+    </select>
+</mapper>
+-->

@@ -1,0 +1,1 @@
+alter table todo_items modify `content` varchar(255) not null comment '代办内容';
