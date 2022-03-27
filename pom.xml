@@ -126,12 +126,12 @@
             <artifactId>jakarta.persistence-api</artifactId>
             <version>${persistence.version}</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
-        </dependency>
+        </dependency>-->
 
     </dependencies>
 
